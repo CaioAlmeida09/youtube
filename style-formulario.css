@@ -23,6 +23,7 @@ h2 {
    margin-left: 20%;
    margin-right: 20%;
    font-size: 20px;
+   margin-bottom: 20px;
 
 
 }
@@ -43,7 +44,8 @@ div {
    height: 30px;
    margin-left: 12%;
    margin-right: 12%;
-   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-top: 5px;
 
 }
 
@@ -62,12 +64,14 @@ p {
 .check {
    margin-top: 10px;
    margin-bottom: 10px;
+   margin-left: 12%;
 }
 
 
 
 .bests {
    margin-top: 20px;
+   margin-left: 12%;
 
 }
 
@@ -108,7 +112,8 @@ button {
    h1 {
       font-size: 20px;
    }
-   h2{
+
+   h2 {
       font-size: 15px;
       margin-bottom: 20px;
    }
@@ -121,6 +126,9 @@ button {
       font-size: 15px;
    }
 
+   placeholder {
+      font-size: 15px;
+   }
 }
 
 @media (max-width: 318px) {
@@ -128,11 +136,21 @@ button {
    h1 {
       font-size: 15px;
    }
-   h2{
+
+   h2 {
       font-size: 12px;
       margin-bottom: 20px;
    }
 
    p {
       font-size: 10px;
+   }
+   placeholder {
+      font-size: 8px;
+   }
+   .check {
+      font-size: 12px;
+   }
+   .bests{
+      font-size: 12px;
    }
