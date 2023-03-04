@@ -1,0 +1,138 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1 {
+   text-align: center;
+   color: bold;
+   margin-top: 50px;
+   width: 60%;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: 30px;
+
+}
+
+h2 {
+   text-align: center;
+   color: rgba(44, 44, 44, 0.6);
+   margin-top: 40px;
+   width: 60%;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: 20px;
+
+
+}
+
+div {
+   width: 60vw;
+   height: 1600px;
+   background: #1010ff;
+   margin: auto 20vw auto 20vw;
+   padding: 20px;
+   position: relative;
+
+}
+
+
+.caixinhas {
+   width: 76%;
+   height: 30px;
+   margin-left: 12%;
+   margin-right: 12%;
+   margin-top: 20px;
+
+}
+
+p {
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: 10px;
+   margin-left: 12%;
+   width: 60%;
+}
+
+#your-you-code {
+   margin-top: 20px;
+}
+
+.check {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
+
+.bests {
+   margin-top: 20px;
+
+}
+
+#label-payers {
+   margin-top: 20px;
+
+}
+
+#texto {
+   margin-top: 30px;
+   height: 120px;
+   width: 100%;
+   text-align: center;
+   color: #22222;
+
+}
+
+#coments {
+   margin-top: 30px;
+}
+
+button {
+   width: 100%;
+   height: 50px;
+   margin-top: 65px;
+   margin-left: 1%;
+   margin-top: 10%;
+   background: #10ff30;
+   border-radius: 15px;
+   color: #ffffff;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+
+}
+
+@media (max-width: 450px) {
+   h1 {
+      font-size: 20px;
+   }
+   h2{
+      font-size: 15px;
+      margin-bottom: 20px;
+   }
+
+   div {
+      height: 1100px;
+   }
+
+   p {
+      font-size: 15px;
+   }
+
+}
+
+@media (max-width: 318px) {
+
+   h1 {
+      font-size: 15px;
+   }
+   h2{
+      font-size: 12px;
+      margin-bottom: 20px;
+   }
+
+   p {
+      font-size: 10px;
+   }
